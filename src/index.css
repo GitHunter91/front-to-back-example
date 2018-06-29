@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: black;
+}
+
+li {
+  margin-left: 50px;
+}
+
+.app .lights {
+  background: white;
+}
+
+.button {
+  margin-top: 20px;
+  margin-left: 40px;
+  border: 1px black solid;
+  background: #333;
+  color: white;
+  width: 100px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.blacked {
+  margin: 0 auto;
+  background: black;
+  width: 500px;
+  height: 357px;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+}
+
