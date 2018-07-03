@@ -9,6 +9,7 @@ app.use(bodyParser.json())
 
 
 app.get('/giraffe', controller.getFood)
+app.post('/api/addFood', controller.addFood)
 
 
 
