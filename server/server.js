@@ -8,8 +8,10 @@ app.use(bodyParser.json())
 
 
 
-app.get('/giraffe', controller.getFood)
+app.get('/api/getFood', controller.getFood)
+app.put('/api/update/:id', controller.update)
 app.post('/api/addFood', controller.addFood)
+app.delete('/api/delete/:id', controller.delete)
 
 
 

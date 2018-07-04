@@ -1,8 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  height: 100vh;
 }
+
+/* .App {
+  height: 100vh;
+} */
 
 h1 {
   color: black;
@@ -17,8 +26,10 @@ li {
 }
 
 .button {
-  margin-top: 20px;
-  margin-left: 40px;
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  margin: 0 auto;
   border: 1px black solid;
   background: #333;
   color: white;
@@ -28,6 +39,9 @@ li {
 }
 
 .blacked {
+  position: absolute;
+  top: 0;
+  right: 0;
   margin: 0 auto;
   background: black;
   width: 500px;
@@ -35,7 +49,59 @@ li {
 }
 
 .image {
+  position: absolute;
+  top: 0;
+  right: 0;
   display: block;
   margin: 0 auto;
 }
 
+.delete {
+  background: red;
+  color: white;
+  border-radius: 50%;
+  border: 1px black solid;
+  padding: 0px 5px;
+}
+
+li {
+  width: 140px;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.food {
+  display:flex;
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.list-container {
+  display: flex;
+  width: 450px;
+  flex-direction: row;
+  flex: 1;
+}
+
+.list{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.input-div{
+  margin-left: 30px;
+}
+
+.food-container {
+  position: relative;
+  width: 500px;
+}
+
+.button {
+  margin: 0 auto;
+
+}
+
+.App {
+  position: relative;
+  height: 100vh;
+}
